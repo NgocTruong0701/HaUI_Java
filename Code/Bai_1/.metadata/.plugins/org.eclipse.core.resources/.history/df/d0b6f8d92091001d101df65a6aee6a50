@@ -1,0 +1,20 @@
+package If_else_3ngoi;
+
+import java.util.*;
+
+public class Example_Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = new Scanner(System.in).nextInt();
+		switch(n) {
+		case 1: System.out.print("One"); break;
+		case 2: System.out.print("Two"); break;
+		case 3: System.out.print("Three"); break;
+		default: System.out.print("Out"); break;
+		}
+		
+		System.out.print("End of Switch");
+	}
+
+}

@@ -1,0 +1,5 @@
+﻿1. bổ sung thêm mục Tạo DL mẫu. Tạo tự động 5 thí sinh vào phòng thi
+2. Bắt lỗi số lượng thí sinh trong phòng trong khoảng 23 đến 45.
+3. Bổ sung mục sắp xếp TS theo số báo danh
+4. bổ sung: tìm thí sinh thủ khoa
+5. Đưa ra ds thí sinh trúng tuyền.

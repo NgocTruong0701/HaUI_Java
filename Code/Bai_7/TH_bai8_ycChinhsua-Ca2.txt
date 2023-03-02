@@ -1,0 +1,2 @@
+﻿1. bổ sung thêm mục Nhập thông tin phòng thi ( mã phòng, địa chỉ, lượng ts).Bắt lỗi số lượng thí sinh trong phòng trong khoảng 23 đến 45. và mã phòng ko để trống. Ktra thông tin phòng hợp lệ mới cho phép nhập ts vào phòng
+4. sắp xếp thí sinh theo điểm, điểm trùng sắp theo điểm toán . Lưu ý ko dùng for, dùng Collection.sort theo 2 điều kiện.

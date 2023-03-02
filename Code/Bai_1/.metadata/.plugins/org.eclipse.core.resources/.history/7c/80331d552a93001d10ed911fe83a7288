@@ -1,0 +1,13 @@
+package Test;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		String str = (char)('a'-32)+(123+"456")+"java";
+		System.out.print(str);
+	}
+
+}

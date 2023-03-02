@@ -1,0 +1,56 @@
+package Array;
+
+import java.util.*;
+
+public class Other_Examples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				String[] array = new String[] {"First", "Second", "Third", "Fourth" }; 
+				
+				// In cac phan tu mang 1 chieu
+				// System.out.println(array.toString()); // Khong nen dung
+				System.out.println(Arrays.toString(array));
+				
+				// Ghep 2 mang 1 chieu thanh mang 2 chieu
+				String[] arr1 = new String[] {"Fifth", "Sixth"};
+				String[] arr2 = new String[] {"Seventh", "Eigth"};
+				
+				String[][] arrayOfArray = new String[][] {arr1,arr2};
+				//System.out.println(arrayOfArray); khong dung duoc
+				//System.out.println(Arrays.toString(Arrays.toString(arrayOfArray))); khong dung duoc
+				System.out.println(Arrays.deepToString(arrayOfArray));
+				
+				
+				
+				// Copy - toan bo
+				// Dung method clone()
+				String[] arrayCopy = array.clone();
+				System.out.println(Arrays.toString(arrayCopy));
+				
+				// Dung method Arrays.copyOf(ten mang can copy, kich co moi)
+				String[] arrayCopy2 = Arrays.copyOf(array, array.length);
+				System.out.println(Arrays.toString(arrayCopy2));
+				
+				// Copy 1 phan
+				String[] arrayCopy3 = Arrays.copyOf(array, 3);
+				System.out.println(Arrays.toString(arrayCopy3));
+				
+				// System.arraycopy(ten mang nguon, vi tri bat dau, mang can copy, vi tri bat dau, kich thuoc mang)
+				String[] arrayCopy4 = new String[3];
+				System.arraycopy(array, 1, arrayCopy4, 0, arrayCopy4.length);
+				System.out.print(Arrays.toString(arrayCopy4));
+
+				
+				// Hop 2 mang 
+				//Integer[] fArray = {0,2,4,6,8};
+				//Integer[] sArray = {1,3,5,7,9};
+				
+				// ????
+				
+				// Mang JDK 8
+				List<String> alphabets = new ArrayList<>(Arrays.asList("aa", "bbb", "cat", "dog"));
+				alphabets.forEach(s -> System.out.println(s));
+				
+	}
+}

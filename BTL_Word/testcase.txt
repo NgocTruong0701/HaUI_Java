@@ -1,0 +1,32 @@
+đăng nhập: test admin: 2020601391  ; Truongwf0701@
+		test sai: 202012345  ; hehehehhe
+	   test user: 2020600871   ; nguyenthiM1010*
+
+đăng kí: test msv trùng: 2020600872
+	test mk không hợp lệ: hhhrhrhrh
+	test xác nhận mk k trùng mk (hh2h2h2)  : h5h5h5h5h
+	test không nhập đủ các trường
+	test email không hợp lệ hrhhrhrjrj
+	test đnăg kí thành công: tất cả các TH đúng
+
+
+
+thêm event: test không nhập dủ thông tin
+		test số lượng sinh viên là string
+
+sửa sự kiện: test không chọn sự kiện
+		test chọn sự kiện
+		
+thêm phí hoạt động: test phí là string
+		test tên phí để trống
+
+sửa phí hoạt động: test không chọn phí hoạt động
+		test chọn phí hoạt động
+
+thêm thành viên tham gia sự kiện: test không chọn sự kiện
+				test không chọn thành viên tham gia
+				
+thay đổi thông tin sinh viên: test emailo không hợp lệ : dkjhgrfiuehr
+				test email hợp lệ: lamLinh1005@gmail.com
+				test thay đổi mật khẩu không hợp lệ
+				

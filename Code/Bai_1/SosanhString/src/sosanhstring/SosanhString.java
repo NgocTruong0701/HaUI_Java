@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package sosanhstring;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author ngoct
+ */
+public class SosanhString {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("Nhap chuoi 1:");
+        String chuoi1 = new Scanner(System.in).nextLine();
+        System.out.println("Nhap chuoi 2:");
+        String chuoi2 = new Scanner(System.in).nextLine();
+        
+        if(chuoi1.equals(chuoi2))
+            System.out.println("Hai chuoi giong nhau");
+        else
+            System.out.println("Hai chuoi khac nhau");
+    }
+    
+}

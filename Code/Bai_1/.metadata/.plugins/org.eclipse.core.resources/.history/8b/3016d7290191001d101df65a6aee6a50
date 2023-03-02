@@ -1,0 +1,23 @@
+package Input;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Example_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Method input int
+		int n;
+		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+		try {
+			n = Integer.parseInt(in.readLine());
+		}
+		catch (IOException e){
+			e.printStackTrace();
+		}
+		System.out.println("So vua nhap la: " + n);
+	}
+
+}

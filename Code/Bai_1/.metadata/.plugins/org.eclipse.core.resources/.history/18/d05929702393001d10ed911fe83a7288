@@ -1,0 +1,21 @@
+package Test;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10 ;
+		int b = 5;
+		System.out.print(!(a==(a|b)));
+		int m;
+		int i;
+		i = 2; 
+		m = ++i;
+		i++;
+		m += i;
+		System.out.println(i +" " + m);
+		
+		 int i = 5, j = 10; int k= ++i + j++; k+=--k; System.out.println("i="+i+",j="+j+",k="+k);
+	}
+
+}

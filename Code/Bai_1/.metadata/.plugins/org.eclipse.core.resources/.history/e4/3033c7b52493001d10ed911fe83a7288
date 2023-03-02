@@ -1,0 +1,16 @@
+package Test;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10 ;
+		int b = 5;
+		System.out.print(!(a==(a|b)));
+		
+		int a = 2025;
+		int d;
+		 do{d=a%10; a /=10; System.out.print(d);}while(a!=0);
+	}
+
+}
